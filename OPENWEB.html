@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>B&B</title>
+    <link rel="icon" href="Images/PROCESSOR LOGO AI.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: url("Images/PROCESSOR LOGO AI.jpg");
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        div{
+            background-color: rgba(255, 254, 254, 0.77);
+            border-radius: 10px;
+            padding:50px;
+            width:400px;
+        }
+        input[type="text"], input[type="email"], input[type="password"], select, textarea{
+        width:100;
+        padding:10px;
+        border:none;
+        border-radius: 5px;
+        }
+        a[type="submit"], a[type="RESET"]{
+        background-color: rgb(41, 74, 192);
+        color: white;
+        padding:10px 20px;
+        border-radius:20px;
+        border:none;
+        transition:0,5s;
+    }
+    input:focus, textarea:focus, select:focus{
+        background-color: antiquewhite;
+    }
+    a[type="submit"]:hover,
+    a[type="RESET"]:hover{
+        background: crimson;
+        transform: scale(1.05);
+        cursor: pointer;
+    }
+    h2{
+        text-align: center;
+    }
+    .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+
+.fa-telegram {
+  background: #3363af;
+  color: rgb(255, 255, 255);
+}
+
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+
+.fa-instagram {
+  background: #750cbb;
+  color: white;
+}
+</style>
+</head>
+<body>
+    <div>
+        <form action="/action_page.php" method="post">
+            <h2>Exited to join us? Let's Go...</h2><br>
+            <label for="name">Name:&nbsp;</label>
+            <input type="text" placeholder="Sherlock Holmes🕵🏻‍♂️" id="name" name="text"><br><br>
+            <label for="email">Email:&nbsp;&nbsp;</label>
+            <input type="email" placeholder="abcd123@gmail.com" name="email"><br><br>
+            <label for="cities">Interested In :&nbsp;</label>
+            <select name="cities" id="cities">
+            <option value="Select">Select</option>
+            <option value="HTML">HTML</option>
+            <option value="CSS">CSS</option>
+            <option value="JAVASCRIPT">JAVASCRIPT</option>
+            </select><br><br> 
+            <label>HOW DID YOU GOT INFORMED ABOUT US !!</label><br><br>
+                <input type="radio" id="html" name="fav_language" value="HTML">
+                <label for="html">FRIENDS 🚶🏻‍➡️🚶🏻‍♀️</label><br><br>
+                <input type="radio" id="css" name="fav_language" value="CSS">
+                <label for="css">TEACHERS👩🏻‍🏫</label><br><br>
+                <input type="radio" id="javascript" name="fav_language" value="JavaScript">
+                <label for="javascript">OTHERS🌏</label>
+            <br><br><br>
+            <label for="password">Password:&nbsp;</label>
+            <input placeholder="Create One" type="password" name="password"><br><br><br>
+            <a href="HOME.html" type="Submit" value="submit"><b>SUBMIT</b></a>
+            <a type="RESET" value="RESET"><b>RESET</b></a><br><br>
+            <!-- Add font awesome icons -->
+            <a href="https://www.facebook.com/share/1UHqEidyuB/" class="fa fa-facebook"></a>
+            <a href="" class="fa fa-twitter"></a>
+            <a href="https://www.linkedin.com/in/t-gowtham-raj-4432ab325?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" class="fa fa-linkedin"></a>
+            <a href="https://youtube.com/@nantham24267?si=021J9QQbWbXK_Krz" class="fa fa-youtube"></a>
+            <a href="https://www.instagram.com/im_raj2006/profilecard/?igsh=NXozZXp6aG4xMQ==" class="fa fa-instagram"></a>
+        </form>
+    </div>
+  </body>   
